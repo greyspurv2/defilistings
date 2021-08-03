@@ -1,0 +1,89 @@
+.body .projectBoxContainer {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.Navbar {
+    color: blueviolet;
+    height: 200px;
+}
+
+.Card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em align-items: stretch;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.card {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em float: none;
+    align-items: stretch;
+    justify-content: center;
+    margin: 20px;
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+}
+
+.card:hover {
+    background-color: blueviolet;
+    height: 300px;
+    width: 200px;
+    transition: ease-in-out 3;
+    transform: rotateX(180);
+    cursor: pointer;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
